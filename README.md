@@ -1,2 +1,2 @@
 # LABORATORY_WORKS
-My educational programs for the university
+Educational programs for the university
