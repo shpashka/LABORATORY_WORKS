@@ -1,1 +1,1 @@
-Программа реализует перевод из троичной СС в девятеричную
+A Turing Machine program for computing a nonary form of trinary number in O(logn)
