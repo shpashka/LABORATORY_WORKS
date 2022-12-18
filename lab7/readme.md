@@ -1,1 +1,1 @@
-A laboratory work using Markov Algorithm
+A laboratory work using Normal Markov Algorithms
