@@ -32,19 +32,19 @@ void t_potency(){
 
 
 void set_append(unsigned int *set, char letter){
-    unsigned int add_set = 1u<<(letter-'a'); //getting a set of single char
+    unsigned int add_set = 1u<<(letter-'A'); //getting a set of single char
     *set|=add_set; //adding a char to the set
 }
 void t_set_append(){
     unsigned int set1 = 8;
-    set_append(&set1, 'b');
+    set_append(&set1, 'B');
     assert(set1==10);
 }
 
 
 void print_set(unsigned int set){
-    for(char letter='a';letter<'z';++letter){
-        if(set&(1u<<(letter-'a'))){
+    for(char letter='A';letter<='Z';++letter){
+        if(set&(1u<<(letter-'A'))){
             printf("%c ",letter);
         }
     }
@@ -68,7 +68,7 @@ int main(){
             lower_set&=0;//making empty set
         }
         else{
-            if((c<='z')&&(c>='a')){
+            if((c<='Z')&&(c>='A')){
                 set_append(&lower_set,c);
                 }
         }
