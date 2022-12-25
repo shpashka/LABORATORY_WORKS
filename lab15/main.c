@@ -21,9 +21,9 @@ int main(){
 
     fscanf(f,"%d %d ",&m,&n);
 
-    int **a = malloc(sizeof(int)*(m+1));
+    int **a = malloc(sizeof(int)*(m));
     for(int i=0;i<m;i++){
-        a[i] = malloc(sizeof(int)*(n+1));
+        a[i] = malloc(sizeof(int)*(n));
         for(int j=0;j<n;j++){
             fscanf(f,"%d ",&a[i][j]);
         }
