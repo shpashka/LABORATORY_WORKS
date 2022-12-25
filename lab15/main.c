@@ -54,5 +54,6 @@ int main(){
     }
 
     free(a);
+    fclose(f);
     return 0;
 }
