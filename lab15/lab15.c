@@ -33,7 +33,7 @@ int main(){
 
     //freeing the memory from extra matrix lines
     for(int i=0;i<m;i++){
-        for(int j=i;j<m;j++){
+        for(int j=i+1;j<m;j++){
             if(equal(a[i],a[j],m,n)){
                 int *temp = a[j];
                 for(int k=j;k<m;k++){
