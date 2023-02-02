@@ -25,7 +25,7 @@ void sum(int num){
 
 int main(){
     int number;
-    scanf("%d", &number);
+    assert(scanf("%d", &number)!=0);
     sum(number);
 return 0;
 }
