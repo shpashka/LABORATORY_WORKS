@@ -27,5 +27,5 @@ int main(){
     int number;
     scanf("%d", &number);
     sum(number);
-
+return 0;
 }
