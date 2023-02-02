@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <assert.h>
 int get_last(int num){
     return(num%10);
 }
